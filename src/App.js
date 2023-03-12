@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
-// import './style.css';
-import './color:.css';
 
 export default function App() {
   const [name, setName] = useState('');
   const [count, setCount] = useState(0);
-  const [user, setUser] = useState('');
+  const [user, setUser] = useState('');;
 
   const h1Style = {
     color: 'white',
